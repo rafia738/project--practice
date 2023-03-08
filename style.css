@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 57, 7);
+    color:#0a0909;
+}
+/* .main{ */
+  /* margin: 0 auto; */
+ /* }  */
+.logo img {
+    height: 150px;
+}
+.nav-links {
+display: flex;
+justify-content: space-around;
+list-style: none;
+width: 50%;
+}
+.nav-links li a {
+    color:blue ;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #f2f2f2;
+}
